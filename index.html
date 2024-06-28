@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h3> (SJT) CURRENCY CONVERTER APP</h3>
+        </header>
+        <form id="currency-form" action="#">
+            <div class="amount">
+                <p>ENTER AMOUNT</p>
+                <input type="text" id="amount" value="1">
+            </div>
+            <div class="drop-list">
+                <div class="form">
+                    <p>FROM</p>
+                    <div class="select_box">
+                        <img src="./images/download (1).jpeg" alt="From Currency" id="from_flag">
+                        <select name="from_currency" id="from_currency">
+                            <option value="USD">United States Dollar (USD)</option>
+                            <option value="EUR">Euro (EUR)</option>
+                            <option value="GBP">British Pound (GBP)</option>
+                            <option value="JPY">Japanese Yen (JPY)</option>
+                            <option value="AUD">Australian Dollar (AUD)</option>
+                            <option value="CAD">Canadian Dollar (CAD)</option>
+                            <option value="CHF">Swiss Franc (CHF)</option>
+                            <option value="CNY">Chinese Yuan (CNY)</option>
+                            <option value="SEK">Swedish Krona (SEK)</option>
+                            <option value="NZD">New Zealand Dollar (NZD)</option>
+                            <option value="MXN">Mexican Peso (MXN)</option>
+                            <option value="SGD">Singapore Dollar (SGD)</option>
+                            <option value="HKD">Hong Kong Dollar (HKD)</option>
+                            <option value="NOK">Norwegian Krone (NOK)</option>
+                            <option value="KRW">South Korean Won (KRW)</option>
+                            <option value="TRY">Turkish Lira (TRY)</option>
+                            <option value="RUB">Russian Ruble (RUB)</option>
+                            <option value="INR">Indian Rupee (INR)</option>
+                            <option value="BRL">Brazilian Real (BRL)</option>
+                            <option value="ZAR">South African Rand (ZAR)</option>
+                            <option value="DKK">Danish Krone (DKK)</option>
+                            <option value="PLN">Polish Zloty (PLN)</option>
+                            <option value="THB">Thai Baht (THB)</option>
+                            <option value="IDR">Indonesian Rupiah (IDR)</option>
+                            <option value="HUF">Hungarian Forint (HUF)</option>
+                            <option value="CZK">Czech Koruna (CZK)</option>
+                            <option value="ILS">Israeli Shekel (ILS)</option>
+                            <option value="CLP">Chilean Peso (CLP)</option>
+                            <option value="PHP">Philippine Peso (PHP)</option>
+                            <option value="AED">United Arab Emirates Dirham (AED)</option>
+                            <option value="PKR">Pakistani Rupee (PKR)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form">
+                    <p>TO</p>
+                    <div class="select_box">
+                        <img src="./images/download.png" alt="To Currency" id="to_flag">
+                        <select name="to_currency" id="to_currency">
+                            <option value="USD">Indian Rupee (INR)</option>
+                            <option value="EUR">Euro (EUR)</option>
+                            <option value="GBP">British Pound (GBP)</option>
+                            <option value="JPY">Japanese Yen (JPY)</option>
+                            <option value="AUD">Australian Dollar (AUD)</option>
+                            <option value="CAD">Canadian Dollar (CAD)</option>
+                            <option value="CHF">Swiss Franc (CHF)</option>
+                            <option value="CNY">Chinese Yuan (CNY)</option>
+                            <option value="SEK">Swedish Krona (SEK)</option>
+                            <option value="NZD">New Zealand Dollar (NZD)</option>
+                            <option value="MXN">Mexican Peso (MXN)</option>
+                            <option value="SGD">Singapore Dollar (SGD)</option>
+                            <option value="HKD">Hong Kong Dollar (HKD)</option>
+                            <option value="NOK">Norwegian Krone (NOK)</option>
+                            <option value="KRW">South Korean Won (KRW)</option>
+                            <option value="TRY">Turkish Lira (TRY)</option>
+                            <option value="RUB">Russian Ruble (RUB)</option>
+                            <option value="INR">Indian Rupee (INR)</option>
+                            <option value="BRL">Brazilian Real (BRL)</option>
+                            <option value="ZAR">South African Rand (ZAR)</option>
+                            <option value="DKK">Danish Krone (DKK)</option>
+                            <option value="PLN">Polish Zloty (PLN)</option>
+                            <option value="THB">Thai Baht (THB)</option>
+                            <option value="IDR">Indonesian Rupiah (IDR)</option>
+                            <option value="HUF">Hungarian Forint (HUF)</option>
+                            <option value="CZK">Czech Koruna (CZK)</option>
+                            <option value="ILS">Israeli Shekel (ILS)</option>
+                            <option value="CLP">Chilean Peso (CLP)</option>
+                            <option value="PHP">Philippine Peso (PHP)</option>
+                            <option value="AED">United Arab Emirates Dirham (AED)</option>
+                            <option value="PKR">Pakistani Rupee (PKR)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">GET EXCHANGE RATE</button>
+        </form>
+        <div class="result">
+            <h2>EXCHANGE_RATE</h2>
+            <p id="exchange-rate">1 USD = 74.30 INR</p>
+        </div>
+        <div class="footer">CREATED BY: TUFAIL SHOUKAT</div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
